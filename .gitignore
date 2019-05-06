@@ -47,3 +47,6 @@ ManagedDependencies/
 
 # PyCharm files
 .idea/
+
+# local config file
+app_name.txt
