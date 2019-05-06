@@ -30,12 +30,12 @@ I am trying to use those wheel files to publish the app to Azure.
 
 I publish function app using command:
 
-```bash
+```
 $ func azure functionapp publish ${APP_NAME} --build-native-deps
 ```
 
 But it doesn't work with message:
-```bash
+```
 Error running docker exec -t 96f7fb6684571bd0c3a686445c5d661216fee363412aa97234018f509c6ecd5a /python_docker_build.sh.
 output: Looking in links: wheelhouse
 Collecting Additional-Library==1.0 (from -r /requirements.txt (line 2))
